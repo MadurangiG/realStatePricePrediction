@@ -1,0 +1,144 @@
+## In Lectures
+
+1. Machine Learning & Ensemble Algorithms
+Linear Regression
+
+Logistic Regression
+
+Decision Trees (Decision Tree Classifier / Regressor)
+
+Random Forest (Random Forest Classifier / Regressor)
+
+Support Vector Machines (SVM) / Support Vector Classifier (SVC)
+
+AdaBoost (AdaBoost Classifier / Regressor)
+
+Gradient Boosting (Gradient Boosting Classifier / Regressor)
+
+XGBoost (Extreme Gradient Boosting / XGBClassifier)
+
+CatBoost (CatBoost Classifier)
+
+LightGBM (LGBM)
+
+K-Nearest Neighbors (KNN) / Nearest Neighbors
+
+Ensemble Learning Techniques:
+
+Bagging (Bootstrap Aggregating)
+
+Boosting
+
+Stacking (Standard Stacking, Cross-Validated Stacking, Multi-Level/Deep Stacking)
+
+2. Clustering & Unsupervised Learning Algorithms
+K-Means Clustering
+
+K-Medoids Clustering
+
+Spectral Clustering
+
+DBSCAN (Density-Based Spatial Clustering of Applications with Noise)
+
+Affinity Propagation
+
+Mean Shift
+
+Fuzzy Clustering
+
+Hierarchical Clustering
+
+Model-Based Clustering (e.g., Expectation-Maximization / EM, COBWEB, Self-Organizing Maps / SOM)
+
+Topic Modeling / Text Mining:
+
+LDA (Latent Dirichlet Allocation)
+
+3. Explainable AI (XAI) & Interpretability Methods
+SHAP (Shapley Additive exPlanations):
+
+TreeSHAP / TreeExplainer
+
+KernelSHAP
+
+LIME (Local Interpretable Model-Agnostic Explanations):
+
+LIME Tabular Explainer
+
+DiCE (Diverse Counterfactual Explanations / Counterfactual Reasoning)
+
+Gradient-Based Attribution Methods:
+
+Feature Gradients
+
+Integrated Gradients
+
+Grad-CAM
+
+SmoothGrad
+
+4. Optimization, Loss Functions & Mathematical Frameworks
+Gradient Descent (Batch Gradient Descent, Stochastic Gradient Descent / SGD)
+
+Weighted Least Squares (WLS) Estimation / Ordinary Least Squares
+
+Regularization Techniques:
+
+L1 Regularization (Lasso)
+
+L2 Regularization (Ridge / Lambda)
+
+Game Theory / Shapley Values Framework (Cooperational Game Theory, Marginal Contributions)
+
+Hessian Matrix (Second-Order Derivatives) & First-Order Derivatives
+
+Newton's Optimization Method
+
+RBF (Radial Basis Function) / Kernel Trick
+
+Laplacian Matrix & Eigenvector Decompositions
+
+5. Statistical & Distance Metrics / Validation Techniques
+Distance Metrics:
+
+Euclidean Distance
+
+Manhattan Distance
+
+Cluster Evaluation Metrics:
+
+Dunn Index
+
+Silhouette Score
+
+Within-Cluster Sum of Squares (WCSS / Elbow Method)
+
+Validation & Sampling Techniques:
+
+$K$-Fold Cross-Validation / Stratified Cross-Validation
+
+Bootstrap Sampling
+
+## Practical Sessions
+
+Linear Regression & SGD Regression (LinearRegression, SGDRegressor) — for continuous value prediction and gradient descent optimization
+
+Logistic Regression (LogisticRegression) — for binary and multi-class probabilistic classification
+
+Decision Tree Classifier (DecisionTreeClassifier) — for hierarchical rule-based classification and pruning
+
+Random Forest Classifier (RandomForestClassifier) — an ensemble method combining multiple decision trees
+
+Support Vector Machine / SVC (SVC) — for classification using hyperplanes and kernel tricks (such as RBF and Linear kernels)
+
+XGBoost Classifier (XGBClassifier) — a gradient-boosted decision tree ensemble
+
+Voting Classifier (VotingClassifier) — an ensemble wrapper combining Random Forest, Logistic Regression, SVC, Gradient Boosting, and K-Nearest Neighbors via soft voting
+
+K-Means Clustering (KMeans) — an unsupervised partitioning algorithm grouping data by cluster centers
+
+Hierarchical Agglomerative Clustering (AgglomerativeClustering) — an unsupervised bottom-up clustering technique
+
+DBSCAN (DBSCAN) — a density-based spatial clustering algorithm for discovering arbitrarily shaped clusters and noise
+
+Gaussian Mixture Models (GaussianMixture) — a probabilistic unsupervised clustering approach based on Gaussian distributions

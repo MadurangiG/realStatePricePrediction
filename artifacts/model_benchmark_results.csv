@@ -1,0 +1,5 @@
+Model,Category,R2,RMSE ($),MAE ($),MAPE (%),CV_R2_Mean,CV_R2_Std
+Ridge Regression,Baseline (Covered),0.6174,374077.17,250924.57,20.72,0.6024,0.0398
+Random Forest Regressor,Baseline (Covered),0.6329,366453.0,256536.63,19.84,0.6073,0.02
+Extra Trees Regressor,New Algorithm (Ensemble),0.6684,348261.71,241195.19,18.46,0.6231,0.0245
+Explainable Boosting Machine (EBM),New Algorithm (Glass-Box GA2M),0.6871,338305.6,233371.12,18.38,0.6316,0.02

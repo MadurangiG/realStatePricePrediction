@@ -1,0 +1,30 @@
+{
+  "data": [
+    {
+      "suburb": "Burwood East",
+      "property_type": "House",
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "parking_spaces": 2,
+      "land_size_sqm": 650,
+      "in_mwsc_zone": 0,
+      "in_gwsc_zone": 0,
+      "in_box_hill_high_zone": 0,
+      "dist_to_mwsc_km": 3.2,
+      "dist_to_gwsc_km": 4.1,
+      "dist_to_box_hill_high_km": 4.5,
+      "dist_to_deakin_km": 1.9,
+      "dist_to_burwood_one_km": 0.7,
+      "dist_to_burwood_brickworks_km": 2.1,
+      "dist_to_the_glen_km": 5.2,
+      "dist_to_box_hill_central_km": 4.8,
+      "dist_to_nearest_major_shop_km": 0.7,
+      "dist_to_nearest_train_km": 2.4,
+      "dist_to_tram_75_km": 0.35,
+      "dist_to_cbd_km": 17.2,
+      "latitude": -37.8541,
+      "longitude": 145.1500
+    }
+  ]
+}
+
