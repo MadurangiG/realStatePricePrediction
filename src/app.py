@@ -1,6 +1,5 @@
 """
 Melbourne Eastern Suburbs Property Valuation & XAI Decision Support System
-Interactive Streamlit Web Dashboard (+10 Marks Assignment Bonus)
 
 Features:
   - Real-time property valuation using Explainable Boosting Machine (EBM) & Extra Trees
