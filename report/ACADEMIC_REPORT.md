@@ -12,7 +12,7 @@ This paper presents an end-to-end applied machine learning framework for precisi
 
 ---
 
-## 1. Problem Definition & Local Dataset Collection (15 Marks)
+## 1. Problem Definition & Local Dataset Collection 
 
 ### 1.1 Problem Context & Significance
 Accurate automated property valuation (AVM) in residential real estate is essential for prospective home buyers, mortgage lenders, municipal rating authorities, and urban planners. In metropolitan Melbourne, the middle-eastern corridor—specifically **Burwood East (3151)** and surrounding suburbs (Burwood, Mount Waverley, Glen Waverley, Box Hill, Blackburn, Vermont)—represents a dynamic micro-market characterized by intense competition. Pricing in this region is governed not merely by physical home characteristics (e.g., bedrooms, land area), but critically by **hyper-local spatial amenities**:
@@ -68,7 +68,7 @@ The dataset exclusively utilizes publicly accessible property listing attributes
 
 ---
 
-## 2. Selection & Theoretical Foundations of New Algorithms (15 Marks)
+## 2. Selection & Theoretical Foundations of New Algorithms 
 
 ### 2.1 Syllabus Exclusion Audit
 Per the assignment constraints, chosen algorithms must **not be taught in lectures or practicals** and must **avoid deep learning**. Cross-referencing `covered-algo.txt` confirms that:
@@ -106,7 +106,7 @@ To establish rigorous benchmarks, we implement two core models taught in class:
 
 ---
 
-## 3. Model Training, Optimization & Comparative Evaluation (20 Marks)
+## 3. Model Training, Optimization & Comparative Evaluation 
 
 ### 3.1 Validation Protocol
 To prevent data leakage and spatial overfitting:
@@ -142,7 +142,7 @@ Models were assessed using four industry-standard regression metrics:
 
 ---
 
-## 4. Explainability & Interpretation (XAI) (20 Marks)
+## 4. Explainability & Interpretation (XAI)
 
 ### 4.1 EBM Global Feature & Interaction Importance
 EBM computes the exact mean absolute dollar impact for every main effect and interaction term:
@@ -176,7 +176,7 @@ To demonstrate local transparency, we examined three representative test propert
 
 ---
 
-## 5. Critical Discussion (10 Marks)
+## 5. Critical Discussion 
 
 ### 5.1 Model Limitations
 1. **Order of Interactions:** While EBM captures main effects and pairwise interactions ($f_{ij}$), it cannot model 3-way or higher-order synergies ($f_{ijk}$, e.g. the three-way interaction between luxury finish, school zone, and elevated topography).
@@ -192,7 +192,7 @@ To demonstrate local transparency, we examined three representative test propert
 
 ---
 
-## 6. Bonus: Front-End Web Application Architecture (10 Marks)
+## 6. Bonus: Front-End Web Application Architecture 
 
 To satisfy the 10-mark bonus requirement, we developed a production-ready **Streamlit web application** (`src/app.py`).
 
