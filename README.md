@@ -44,8 +44,6 @@ realStatePricePrediction/
 │   ├── figures/                             # 13 high-resolution publication figures
 │   ├── models/                              # Serialized model weights (.pkl)
 │   └── model_benchmark_results.csv          # Evaluation metrics summary table
-├── report/
-│   └── ML_Assignment_Report_MSc_AI.pdf      # Compiled formal submission PDF
 ├── requirements.txt                         # Python dependencies
 └── README.md                                # Project documentation
 ```
